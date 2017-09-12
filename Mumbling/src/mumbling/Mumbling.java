@@ -16,6 +16,19 @@ public class Mumbling {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println(accum("MjtkuBovqrU"));
     }
-    
+
+    public static String accum(String str) {
+        char[] letters = str.toCharArray();
+        String accum = "";
+        for (int i = 0; i < letters.length; i++, accum += "-") {
+            accum += Character.toUpperCase(letters[i]);
+            for (int j = 1; j <= i; j++) {
+                accum += Character.toLowerCase(letters[i]);
+            }
+        }
+        return accum.substring(0, accum.length() - 1);
+    }
+
 }
