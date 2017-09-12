@@ -18,7 +18,7 @@ public class TrailingZeros {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(zeros(12));
+        System.out.println(zeros(11));
     }
 
     public static int zeros(int n) {
