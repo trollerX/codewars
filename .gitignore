@@ -2,3 +2,12 @@
 /TrailingZeros/build/
 /Mumbling/nbproject/private/
 /Mumbling/build/
+/LengthOfMissingArray/nbproject/private/
+/LengthOfMissingArray/build/
+/*/lib/
+/*/build/
+/*/nbproject/
+/*/test/
+*.txt
+*.xml
+*.mf
